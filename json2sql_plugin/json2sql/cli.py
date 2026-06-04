@@ -15,7 +15,7 @@ def main():
         print(f"Error: Data directory '{args.data_dir}' does not exist.")
         return
 
-    # English comments: Dynamically initialize the database and create tables if they don't exist
+    #Dynamically initialize the database and create tables if they don't exist
     db.init(args.db_path, pragmas={'foreign_keys': 1})
     db.connect()
     db.create_tables([User, Chat, UserProfile, Pet, FeedingRecord, NotificationState], safe=True)

@@ -25,10 +25,9 @@ cd /path/to/your/project/json2sql_plugin
 ```
 
 
-4. Install the package in developer (editable) mode:
-```
+Install the package in developer (editable) mode:
 
-   ```bash
+```bash
    pip install -e .
 
 ```

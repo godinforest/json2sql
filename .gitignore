@@ -1,0 +1,22 @@
+# Environments
+.env
+*.env
+
+# Local data dumps (NoSQL JSONs)
+data/
+*.json
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Python cache & build directories
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.egg-info/
+venv/
+.venv/
+.DS_Store
